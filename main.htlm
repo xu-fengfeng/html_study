@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>简明 HTML CSS 开发规范</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body><!--html的body部分-->
+<h1>this is h1 tpye title</h1>
+<!--h1~h6级别的标题-->
+<h2>this is h2 tpye title</h2>
+<h3>this is h4 tpye title</h3>
+<h4>this is h4 tpye title</h4>
+<h5>this is h5 tpye title</h5>
+<h6>this is h6 tpye title</h6>
+
+<!--p段落标签-->
+<p>this is section A</p>
+<p>this is section B</p>
+
+<!--br换行-->
+<br>
+<p>本规范既是一个开发规范，<br>也是一个脚本语言参考，<br>
+  本规范并不是一个一成不变的必须严格遵守的条文，<br>
+  特殊情况下要灵活运用，做一定的变通。<br>
+  但是，请大家千万不要随意更改规范。<br>如果有任何问题，<br>请及时与我联系，<br>我会及时更改本规范的相关代码样例和文档。</p>
+<br>
+
+<!--无论多少个空格，都被认为是一个，如果需要输入多个空格，则需要使用&nbsp;实现-->
+<p>ab             cd</p>
+<p>ab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd</p>
+
+<!--粗体b和斜体i-->
+<p><b>这里通过b标签实现粗体字,</b><i>然后这里通过i标签实现斜体,</i>你明白了吗？</p>
+
+<!--下划线和删除线-->
+<p><u>这里通过u标签实现下划线</u></p>
+<p><s>这里通过s表现实现删除线</s></p>
+<p><strike>这里通过strike表现实现删除线</strike></p>
+<p><del>这里通过del表现实现删除线</del></p>
+
+<!--上标和下标-->
+<p>我们使用sup实现I<sup>2</sup>C的上标</p>
+<p>我们使用sup标签实现H<sub>2</sub>O的下标</p>
+
+
+
+
+<p>文字在底部显示 <img src="image\0001.jpg"></p>
+</body>
+</html>
