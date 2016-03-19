@@ -2,9 +2,68 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>form</title>
   </head>
   <body>
+    <form action="show.aspx" method="get">
+      <!--文本框 input元素-->
+      <input type="text">
+    <br>
+      <input type="password">
+      <br>
+      <input type="button" value="提交">
+      <br>
+      <p>
+        ---------------------------------------
+      </p>
+      文本框： <input type="text">
+      <br>
+      密码框： <input type="password">
+      <br>
+      <input type="radio" name="grpup">item1
+      <input type="radio" name="grpup" checked>item2
+      <input type="radio" name="grpup">item3
+      <br>
+      <input type="radio" name="grpup1">item1
+      <input type="radio" name="grpup1" checked>item2
+      <input type="radio" name="grpup1">item3
+      <br>
+
+      <input type="checkbox" name="grpup2">item1
+      <input type="checkbox" name="group2">item2
+      <input type="checkbox" name="group2">item3
+      <br>
+      <br>
+      <select name="selectitem" size="..." multiple>
+        <option>item1</option>
+        <option selected>item2</option>
+        <option>item3</option>
+      </select>
+
+      <br>
+      <textarea name="textareabox" rows="10" cols="30">
+        Linaro 是一个由 ARM 主导的开源社区，不同于一般开源社区的过度松散性，
+        Linaro 具有很好的规划和组织，经过 6 年多的发展，已经吸引了 30 多家 ARM
+        上下游的企业加入，包括Soc、通信、服务器、数字家庭、智能终端等各类关联企业，
+        成立了 LEG（Enterprise），LNG（Networking），LHG（Digital Home），
+        LMG（Mobile），LCG（Community Boards） 等多个细分工作组以及其他几个公共
+        的工作组（Kernel，Power，Security，Toolchain，System，QA 等)。
+      </textarea>
+      <br>
+
+      <input type="submit" value="提交">
+      <input type="reset"  value="重置">
+    </form>
+
+    <form action="dxx.aspx" method="get">
+      用户名：<input type="text">
+      <br>
+      密&nbsp &nbsp
+      码：  <input type="password">
+      <br>
+      确认密码：<input type="password">
+      <br>
+    </form>
 
   </body>
 </html>
