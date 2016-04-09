@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>div_layout</title>
+    <style type="text/css">
+      #header
+      {
+        background:blue;
+        height:100px;
+      }
+      #content{}
+      #right
+      {
+        height:250px;
+        width:33%;
+        float:right;
+        background:green;
+      }
+      #left
+      {
+        height:250px;
+        width:33%;
+        float:left;
+        background:orange;
+      }
+      #middle
+      {
+        height:250px;
+        width:33%;
+        float:left;
+        background:yellow;
+      }
+      #bottom
+      {
+        height:80px;
+        background:grey;
+        clear:both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">abc</div>
+    <div id="content">
+      <div id="left">def</div>
+      <div id="middle">ghi</div>
+      <div id="right">right</div>
+    </div>
+    <div id="bottom">bottom</div>
+  </body>
+</html>
