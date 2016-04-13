@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>div_layout4</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			#myid{
+				width:300px;
+				height:300px;
+				color:#cccccc;
+			}
+			.myclass{
+				width:200px;
+				height:300px;
+				color:#cccccc
+			}
+			#p1{
+				border:2px solid#000000;
+			}
+			#p2{
+				color:red;
+			}
+			.p3{
+				font-size:12px;
+			}
+		</style>
+		<link type="text/css" rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<p>body</p>
+		<div id="myid">这里是id，每个文件只能有一次</div>
+		<div class="myclass">这里是myclass，可以有多次</div>
+		<div class="myclass">这里是myclass，可以有多次</div>
+		<p style="width:200px; height:300px; color: red;">p标签使用内联的css</p>
+		<p id="p1">有边框的链入内部css 1</p>
+		<p id="p2">有边框的链入内部css 2</p>
+		<p class="p3">有边框的链入内部css 3</p>
+		
+		<p id="p4">有边框的链入内部css 1</p>
+		<p id="p5">有边框的链入内部css 2</p>
+		<p class="p6">有边框的链入内部css 3</p>		
+	</body>
+</html>
