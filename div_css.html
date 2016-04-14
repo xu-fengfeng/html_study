@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
     <head>
         <title>html+css</title>
@@ -12,6 +12,14 @@
                 color: #666;
                 font-size: 12px;
                 line-height: 150%;
+            }
+            #header{
+              margin:auto;
+              border:0px;
+              background: #ccd2de;
+              height:60px;
+              width:778px;
+              border:1px solid#000000
             }
             #mainbox{
                 margin: auto;
@@ -27,10 +35,31 @@
                 background: #cdcdcd;
                 float: left;
             }
+            #middle{
+              padding: :0px;
+              float:left;
+              height: 400px;
+              width:200px;
+              background: #dadada;
+            }
+            #right{
+              width:378px;
+              float: left;
+              height: 400px;
+              background: #cccccc;
+            }
+            #footer{
+              clear:both;
+              margin:auto;
+              padding:5px 0px 5px 0px;
+              background: #ccd2de;
+              width:778px;
+              height:40px;
+            }
         </style>
     </head>
     <body id="body">
-        <div id="header"></div>
+        <div id="header">html+css</div>
         <div id="mainbox">
             <div id="menu"></div>
             <div id="sidebar"></div>
@@ -39,6 +68,6 @@
             <div id="middle">page middle</div>
             <div id="right">page right</div>
         </div>
-        <div id="footer"></div>
+        <div id="footer">I'm footer</div>
     </body>
 </html>
