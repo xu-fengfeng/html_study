@@ -7,3 +7,85 @@
 .p6{
 	font-size:20px;
 }
+
+/*注释：mydiv1*/
+#mydiv{
+	width:200px;
+	height: 100px;
+	border:2px solid red;
+}
+/*注释：mydiv2*/
+.mydiv2{
+	width:200px;
+	height: 100px;
+	border: 2px solid red;
+}
+
+#style_font1{
+	/*font: font-sytle||font-variant||font-weight||font-size||line-height||font-family*/
+	/*font-style:			normal/italic/oblique
+		font-vairant:   normal/small-caps
+		font-weight:		normal bold bolder lighter 100 200 300 400 ... 800 900
+		font-size:			xx-small x-samll samll medium lage x-large xx-large larger smaller
+		 								length 具体的size
+		font-family:    fontname
+		line-height:		行距
+		word-spacing:		normal 具体宽度
+	*/
+	font:normal normal normal medium normal "Times New Roman";
+	color:#ff0000;
+}
+
+#style_font2{
+	font:italic small-caps 600 14px "黑体";
+}
+
+#style_font3{
+	font:oblique normal 900 18px "隶书";
+}
+
+#style_font_size_xxsmall{
+	font-size:xx-small
+}
+
+#style_font_size_xsmall{
+	font-size:x-small
+}
+
+#style_font_size_small{
+	font-size:small
+}
+
+#style_font_size_large{
+	font-size:large
+}
+
+#style_font_size_xlarge{
+	font-size:xlarge
+}
+
+#style_font_size_xxlarge{
+	font-size:xxlarge
+}
+
+#sytle_font_line_height{
+	width:230px;
+	border:1px	solid#000000;
+	line-height: 80px;
+}
+
+#style_font_word_spacing1{
+	word-spacing:normal;
+}
+
+#style_font_word_spacing2{
+	word-spacing:5px;
+}
+
+#sytle_font_letter_spacing1{
+	letter-spacing: normal;
+}
+
+#sytle_font_letter_spacing2{
+	letter-spacing: 5px;
+}
