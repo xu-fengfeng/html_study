@@ -89,3 +89,118 @@
 #sytle_font_letter_spacing2{
 	letter-spacing: 5px;
 }
+
+#font1{
+	font-family: "宋体";
+}
+
+#font2{
+	font-family: "黑体";
+}
+
+#font3{
+	font-family: "隶书";
+}
+
+#font4{
+	font-weight: bolder;
+}
+
+#font5{
+	width:150px;
+	border: 1px solid#000000;
+	line-height: 30px;
+}
+
+
+#trans1{
+	text-transform: none;
+}
+
+#trans2{
+	text-transform: capitalize;
+}
+
+#trans3{
+	text-transform: uppercase;
+}
+
+#trans4{
+	text-transform: lowercase;
+}
+
+/*文本垂直对齐*/
+/*
+vertical-aligin:baseline|sub|super|top|text-top|middle|bottom|text-bottom
+baseline:和上级基线对齐
+sub:以下标形式显示
+super：以上标形式显示
+top：和行中最高元素上对齐
+text-top：和上级元素的字体向上对齐
+......
+*/
+
+#tbase{
+	/*height:40px;
+	border:1px solid#000000*/
+	vertical-align: baseline;
+}
+
+#sub{
+	vertical-align: sub;
+	font-size:0.5em;
+}
+
+#sup{
+	vertical-align: super;
+	font-size: 0.5em;
+}
+
+#top{
+	vertical-align: top;
+}
+
+#t-top{
+	vertical-align: text-top;
+}
+
+#mid{
+	vertical-align: middle;
+}
+
+#bot{
+	vertical-align: bottom;
+}
+
+#t-bot{
+	vertical-align:text-bottom;
+}
+
+
+/*文本的水平对齐*/
+/*
+text-align:left|right|center|justify
+left:左对齐
+right：右对齐
+center：居中对齐
+justify：左右对齐
+*/
+
+/*文本的缩进*/
+/*
+text-indent:<长度>|<百分比>
+*/
+#indent1{
+	text-indent: 20%;
+}
+
+#indent2{
+	text-indent:500px;
+}
+
+#indent3{
+	width: 200px;
+	border:1px solid#000000;
+	padding:5px;
+	text-indent:18px;
+}
