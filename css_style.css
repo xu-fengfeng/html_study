@@ -1,0 +1,20 @@
+/*
+width:auto|百分比|具体尺寸
+height:autho|百分比|具体尺寸
+*/
+.css_size{
+  width:100px;
+  border:1px solid green;
+}
+
+.css_size2{
+  width:80px;
+  border:1px solid green;
+  margin-top:10px;
+}
+
+.css_size3{
+  width:50px;
+  border:1px solid green;
+  margin-top:20px;
+}

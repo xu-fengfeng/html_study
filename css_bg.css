@@ -1,0 +1,35 @@
+/*背景*/
+/*
+background: background-color|background-image|background-repeat| \
+            background-attachment|background-position
+默认值:
+  background: transparent none repeat scroll %0 %0
+*/
+
+#bg1{
+  background: blue no-repeat scroll 50% 60%;
+}
+
+#bg2{
+  background: url(image/200px-Lincoln_Center_Twilight.jpg) repeat-y;
+}
+
+#bg3{
+  background: url(image/300px-Joan_Baez_Bob_Dylan.jpg) top;
+}
+
+.box{
+  background-color:green;
+  background-image:url(image/ubuntu.jpg);
+  background-repeat: no-repeat;
+  background-position: top right/*center*/;
+  border:1px solid red;
+  height:200px;
+}
+
+.box2{
+  border:1px solid green;
+  margin-top:10px;
+  height:200px;
+  background:blue bottom center no-repeat url(image/ubuntu2.jpg)
+}
