@@ -144,3 +144,12 @@ div{
   float:left;
   margin-left:6px;
 }
+
+/*内补丁
+padding:length
+length可以为数值或百分比,不可为auto或负值
+*/
+#css_padding{
+  width:200px;
+  height:150px;
+}
