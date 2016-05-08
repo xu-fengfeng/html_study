@@ -4,17 +4,143 @@ height:autho|百分比|具体尺寸
 */
 .css_size{
   width:100px;
+  height:50px;
   border:1px solid green;
 }
 
 .css_size2{
   width:80px;
+  height: 100px;
   border:1px solid green;
   margin-top:10px;
 }
 
 .css_size3{
   width:50px;
+  height:50%;
   border:1px solid green;
   margin-top:20px;
+}
+
+.css_size4{
+  width:400px;
+  height:300px;
+  border:1px solid red;
+  margin:auto;
+}
+
+.css_size5{
+  width:200px;
+  height:200px;
+  border:1px solid blue;
+  text-align: center;
+  margin:auto;
+}
+
+
+
+/*
+margin:auto|length;
+margin的值，
+margin： a         1个值，表示4个方向均为此值
+        a,b        2个值，表示上下为a、左右为b
+        a,b,c      3个值，表示上为a，左右为b，下为c
+        a,b,c,d    4个值，表示上为a，右为b，下为c，左为d
+.css_margin{
+  margin:auto|length;
+}
+
+单独的每个方向的外补丁设置：
+    margin-top:auto|length;
+    margin-right: auto|length;
+    margin-bottom:auto|length;
+    margin-left: auto|length;
+*/
+
+
+#css_margin1{
+  margin:20px;
+  border:1px solid blue;
+}
+
+#css_margin2{
+  margin:35px 40px;
+  border:1px solid blue;
+}
+
+#css_margin3{
+  margin:20px 10px 5px -20px;
+  border:1px solid blue;
+}
+
+#css_margin4{
+  width:778px;
+  margin:auto;
+  font-size:14px;
+  border:0;
+}
+
+div{
+  border:1px solid red;
+}
+
+#css_margin5{
+  margin:auto;
+  width:100%;
+  height:80px;
+  border:1px solid blue;
+}
+
+#my_body{
+  width:778px;
+  height:450px;
+  margin: auto;
+  font-size: 15px;
+  border:1px solid black;
+}
+
+#contentleft{
+  width:180px;
+  height:450px;
+  float:left;
+  border:1px solid blue;
+}
+
+#contentcenter{
+  width:410px;
+  height:450px;
+  float:left;
+  margin-left:6px;
+  border:1px solid blue;
+}
+
+#contentright{
+  width:170px;
+  height:450px;
+  float:right;
+  margin-left:6px;
+}
+
+#content_left{
+  width:200px;
+  height:400px;
+  float:left;
+}
+
+#content_leftup{
+  width:200px;
+  height:200px;
+  float: left;
+}
+
+#content_leftdown{
+  width:200px;
+  height:200px;
+}
+
+#content_right{
+  width:200px;
+  height:400px;
+  float:left;
+  margin-left:6px;
 }
