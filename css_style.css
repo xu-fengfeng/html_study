@@ -80,9 +80,6 @@ margin： a         1个值，表示4个方向均为此值
   border:0;
 }
 
-div{
-  border:1px solid red;
-}
 
 #css_margin5{
   margin:auto;
@@ -152,4 +149,128 @@ length可以为数值或百分比,不可为auto或负值
 #css_padding{
   width:200px;
   height:150px;
+  background:#cccccc;
+  /*padding:20px;*/
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+#css_padding2{
+  height:100%;
+  background: green;
+}
+
+#css_padding3{
+	width:200px;
+	height:150px;
+	padding-top:30px;
+	padding-left:10px;
+	padding-right:20px;
+	padding-bottom:10px;
+	background:red;
+	margin:30px;
+}
+
+#css_padding4{
+	background: green;
+	height:100%
+}
+
+
+div{
+  border-style:solid red;
+  #width:200px;
+  margin-top:5px;
+}
+
+
+#css_padding5{
+	padding-top:20px;
+	height:20px;
+	background:blue;
+}
+
+#css_padding6{
+	height:50px;
+	background:orange;
+}
+
+#css_padding7{
+	padding-right:20px;
+	height:20px;
+	background:blue;
+}
+
+#css_padding8{
+	height:50px;
+	background:yellow;
+}
+
+#css_padding9{
+	padding:30px;
+	background:blue;
+	height:50px;
+}
+
+#css_padding10{
+	height:50px;
+	background:green;
+}
+
+#css_padding11{
+	padding-top:20px;
+	padding-bottom:10px;
+	height:20px;
+	background:green;
+}
+
+/*
+border:border-width||border-style||border-color
+	   默认为medium none
+border-width:边框宽度
+		 参数:medium thin thick length(即具体宽度值)
+border-style:边框样式 	
+		   参数:solid none dotted double groove ridge insert outset
+border-color:边框颜色	(#bbbbbb) (red orange)
+
+border-style高于其他2种属性，如果style设置为none，则不管其他2种属性为啥，都不会显示。
+
+border-top:		border-width||border-style||border-color
+border-right:	border-width||border-style||border-color
+border-bottom:	border-width||border-style||border-color
+border-left:	border-width||border-style||border-color
+参数如果是1个，就是上右下左;如果是2个，就是上下、左右，如果是3个，就是上下、左、右
+
+*/
+#bborder1{
+	width:200px;
+	height:80px;
+}
+
+#border1{
+	border:5px solid red;
+}
+
+#border2{
+	border-color:red blue #cccccc;
+	border-style:dashed;
+	border-width:10px;
+}
+
+#border3{
+	border-color:red blue #cccccc;
+	border-style:solid;
+	border-width:medium;
+}
+
+#border4{
+	border-top: 5px solid #cccccc;
+	border-right:10px dashed red;
+	border-bottom:15px dotted green;
+	border-left:20px groove yellow; 
+}
+
+
+
