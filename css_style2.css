@@ -1,0 +1,46 @@
+
+/*
+position:static|absolute|relative
+static:默认值，无特殊定位
+absolute:绝对位置
+relative:相对位置
+
+z-index:auto|number
+
+方向属性
+left,right,top,bottom
+
+
+* */
+
+div{
+	border:1px solid red;
+	margin-top:5px;
+}
+
+#position_p2{
+	position:absolute;
+	left:20px;
+	top:100px;
+}
+
+#position_p3{
+	position: relative;
+	left:100px;
+}
+
+#position_p4{
+	position: relative;
+	left:10px;
+	background:#ccc;
+	z-index:100;
+}
+
+
+#position_p5{
+	z-index: 200;
+	position: relative;
+	left: 30px;
+	top:-5px;
+	background:#888;
+}
