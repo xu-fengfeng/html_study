@@ -1,0 +1,35 @@
+/*
+list-style:list-sytle-image||list_style-position||list-style-type
+list-sytle-image:列表的图像
+	none|url("url")
+list_style-position：列表项文本排列
+	outside|inside inside表示在文本内显示表项标记
+list-style-type：列表项预设标记
+	disc|cricle|square|decimal|lower-roman|upper-roman|lower-alpha|upper-alpha|none
+*/
+#l1{
+	border:1px solid red;
+}
+
+#l2{
+	border:1px solid red;
+	margin-top:5px;
+	list-style:url("image/ubuntu2.jpg") inside none;
+}
+
+#ll0{
+	list-style-image:url("image/ubuntu2.jpg")
+}
+
+
+#ll1{
+	list-style-image:url("image/ubuntu2.jpg")
+}
+
+#ll2{
+	list-style-position:inside;
+}
+
+#ll3{
+	list-style-position:outside;
+}
